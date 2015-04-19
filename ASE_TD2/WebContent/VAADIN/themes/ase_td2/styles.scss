@@ -1,9 +1,0 @@
-@import "addons.scss";
-@import "ase_td2.scss";
-
-/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
-/* The actual styles should be defined in ase_td2.scss */
-.ase_td2 {
-  @include addons;
-  @include ase_td2;
-}

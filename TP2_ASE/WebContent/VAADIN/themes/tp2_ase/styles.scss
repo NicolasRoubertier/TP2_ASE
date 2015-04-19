@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "tp2_ase.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in tp2_ase.scss */
+.tp2_ase {
+  @include addons;
+  @include tp2_ase;
+}
